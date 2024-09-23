@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Block YES Popup",
+    "version": "1.0",
+    "description": "Blocks the YES web player's 'Facts and Polls' popup.",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://watchyesnetwork.com/watch*",
+                "https://yes.studio.easelive.tv/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "all_frames": true
+        }
+    ]
+}
