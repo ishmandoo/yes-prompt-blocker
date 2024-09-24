@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Block YES Popup",
+    "name": "YES Popup Blocker",
     "version": "1.1",
-    "description": "Blocks the YES web player's 'Facts and Polls' popup.",
+    "description": "Blocks the YES Network web player's 'Facts and Polls' popup.",
     "content_scripts": [
         {
             "matches": [
