@@ -3,10 +3,6 @@
     "name": "Block YES Popup",
     "version": "1.0",
     "description": "Blocks the YES web player's 'Facts and Polls' popup.",
-    "permissions": [
-        "activeTab",
-        "scripting"
-    ],
     "content_scripts": [
         {
             "matches": [
